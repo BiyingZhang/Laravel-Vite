@@ -1,6 +1,9 @@
 <template>
-  <h1> Hello, Vue.js with Laravel </h1>
-  <h1> Biying Zhang </h1>
+  <div class="flex justify-center">
+    <h1 class="flex text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  </div>
 </template>
 <script>
 export default {
