@@ -1,12 +1,12 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import app from './components/app.vue'
-import intro from './components/intro.vue'
+import sideMenu from './components/sideMenu.vue'
 
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        { path: '/intro', name: 'intro', component: intro }
+        { path: '/sideMenu', name: 'sideMenu', component: sideMenu }
     ]
 })
 

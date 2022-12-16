@@ -53,6 +53,6 @@
 
 
 export default {
-  name: "intro",
+  name: "sideMenu",
 };
 </script>
