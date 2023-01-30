@@ -9,8 +9,8 @@
     </div>
 
     <div class="grid grid-cols-4 gap-4">
-      <sideMenu />
-      <router-view class="col-span-3"></router-view>
+      <sideMenu class=""/>
+      <router-view class="col-span-4 md:col-span-3 "></router-view>
        
     </div>
   </div>
