@@ -3,13 +3,13 @@
     <div class="w-full text-white bg-main-color">
       <div class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="p-4 flex flex-row items-center justify-between">
-          <span class="text-3xl font-semibolde">Biying Zhang</span>
+          <span class="text-3xl font-semibolde">Lara-Vite</span>
         </div>        
       </div>
     </div>
 
     <div class="grid grid-cols-4 gap-4">
-      <sideMenu class=""/>
+      <sideMenu/>
       <router-view class="col-span-4 md:col-span-3 "></router-view>
        
     </div>
