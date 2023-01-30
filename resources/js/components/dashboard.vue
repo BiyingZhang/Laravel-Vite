@@ -54,3 +54,25 @@
     </div>
 </template>
     
+<script>
+// import { defineComponent } from '@vue/composition-api'
+import axios from "axios";
+
+export default {
+    data() {
+        return {
+            user: {}
+        }
+    },
+    mounted () {
+        this.fetchUser()
+    },
+    methods: {
+        async fetchUser() {
+            axios.get("/user/1").then(payload => {
+                if (payload.status) {this.user = payload.data}})
+                .catch(e => {console.log(e);});
+        }
+    }
+}
+</script>

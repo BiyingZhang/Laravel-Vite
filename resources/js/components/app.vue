@@ -10,20 +10,18 @@
 
     <div class="grid grid-cols-4 gap-4">
       <sideMenu />
-      <dashboard class="col-span-3 text-white"/>
+      <router-view class="col-span-3"></router-view>
        
     </div>
   </div>
-  <router-view>
-  </router-view>
 </template>
 <script>
 
 import sideMenu from './sideMenu.vue'
-import dashboard from './dashboard.vue'
+// import dashboard from './dashboard.vue'
 
 export default {
   name: "App",
-  components: { sideMenu, dashboard }
+  components: { sideMenu,  }
 };
 </script>
